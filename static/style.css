@@ -61,14 +61,14 @@ body {
 
 h1 {
   position: fixed;
-  bottom: 160px;
+  bottom: 150px;
   right: 15px;
   color: orange;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: normal;
   font-family: "Audiowide";
-  /*letter-spacing: .125rem;
-  text-transform: uppercase;*/
+  letter-spacing: .125rem;
+  /*text-transform: uppercase;*/
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   -webkit-transition-timing-function: ease-in-put;
