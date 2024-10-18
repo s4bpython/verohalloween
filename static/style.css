@@ -74,7 +74,7 @@ h1 {
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ li {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .message {
@@ -100,7 +100,7 @@ li span {
 
 @media all and (max-width: 768px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   li {
@@ -109,7 +109,7 @@ li span {
   }
   
   li span {
-    font-size: 3.375rem;
+    font-size: 2.375rem;
   }
 }
 /*----------------------------------- Footer ------------------------------*/
