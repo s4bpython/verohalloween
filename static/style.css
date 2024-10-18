@@ -53,12 +53,12 @@ body {
 .container {
   position: fixed;
   top: 15px;
+  left: 0;
   transition: all 1s ease;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
   background:rgba(0,0,0,0.5);
   color: #ffd54f;
-  margin: auto;
   text-align: center;
 }
 
