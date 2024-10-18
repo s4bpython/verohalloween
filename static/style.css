@@ -83,6 +83,15 @@ li span {
   font-size: 4.5rem;
 }
 
+.message {
+  font-size: 4rem;
+}
+
+#content {
+  display: none;
+  padding: 1rem;
+}
+
 .emoji {
   padding: 0 .25rem;
 }
