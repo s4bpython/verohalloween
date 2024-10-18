@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-  position: fixed;
+  position: absolute;
   top: 15px;
   left: 0;
   transition: all 1s ease;
@@ -60,10 +60,6 @@ body {
   background:rgba(0,0,0,0.5);
   color: #ffd54f;
   text-align: center;
-}
-
-.subject {
-  position: static;
 }
 
 h1 {
@@ -85,15 +81,6 @@ li {
 li span {
   display: block;
   font-size: 4.5rem;
-}
-
-.message {
-  font-size: 4rem;
-}
-
-#content {
-  display: none;
-  padding: 1rem;
 }
 
 .emoji {
