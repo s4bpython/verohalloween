@@ -78,7 +78,7 @@ h1 {
           transition-timing-function: ease-in-put
 }
 
-/*li {
+li {
   display: inline-block;
   font-size: 1em;
   list-style-type: none;
@@ -89,7 +89,7 @@ h1 {
 li span {
   display: block;
   font-size: 3.5rem;
-}*/
+}
 
 .message {
   font-size: 4rem;
@@ -157,23 +157,23 @@ li span {
           animation-delay: 3s;
 }
 
-/*.emoji {
+.emoji {
   padding: 0 .25rem;
-}*/
+}
 
 @media all and (max-width: 768px) {
   h1 {
     font-size: 1rem;
   }
   
-  /*li {
+  li {
     font-size: 1.125rem;
     padding: .75rem;
   }
   
   li span {
     font-size: 2.375rem;
-  }*/
+  }
 }
 /*----------------------------------- Footer ------------------------------*/
 .footer {
