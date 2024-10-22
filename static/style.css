@@ -112,45 +112,49 @@ li span {
 .bg-bubbles li {
   position: absolute;
   list-style: none;
-  display: block;
-  width: 40px;
+  display: none;
+  /*width: 40px;
   height: 40px;
-  /*border-radius: 20px;*/
+  border-radius: 20px;
   background-color: rgba(255, 152, 0, 0.15);
-  bottom: -160px;
-  -webkit-animation: square 25s infinite;
+  bottom: -160px;*/
+  animation: staranimate infinite;
+  transition-timing-function: ease-out;
+  transform-style: preserve-3d;
+  /*-webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
-  transition-timing-function: linear;
+  transition-timing-function: linear;*/
 }
 
 .bg-bubbles li:nth-child(1) {
-  left: 10%;
+  display: block;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .bg-bubbles li:nth-child(2) {
-  left: 20%;
-  /*width: 8px;
-  height: 80px;*/
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 17s;
-          animation-duration: 17s;
+  display: block;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .bg-bubbles li:nth-child(3) {
-  left: 25%;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  display: block;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .bg-bubbles li:nth-child(4) {
-  left: 40%;
-  /*width: 6px;
-  height: 60px;*/
-  -webkit-animation-duration: 22s;
-          animation-duration: 22s;
-  background-color: rgba(255, 152, 0, 0.25);
+  display: block;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .emoji {
@@ -189,6 +193,21 @@ li span {
   .footer {max-height:70px;}
 }
 
+@-webkit-keyframes spinner {
+    0%   { -webkit-transform: translate(150px,  200px);   }
+    9%   { -webkit-transform: translate(172.6px,213.6px); }
+    18%  { -webkit-transform: translate(189.3px,230.3px); }
+    27%  { -webkit-transform: translate(200px,  250px);   }
+    36%  { -webkit-transform: translate(189.3px,269.6px); }
+    45%  { -webkit-transform: translate(172.6px,286.3px); }
+    54%  { -webkit-transform: translate(150px,  300px);   }
+    63%  { -webkit-transform: translate(133.3px,283.3px); }
+    72%  { -webkit-transform: translate(116.6px,266.6px); }
+    81%  { -webkit-transform: translate(100px,  250px);   }
+    90%  { -webkit-transform: translate(116.6px,233.3px); }
+    98%  { -webkit-transform: translate(133.3px,216.6px); }
+    100% { -webkit-transform: translate(150px,  200px);   }
+  }
 @-webkit-keyframes square {
   0% {
     -webkit-transform: translateY(-700px);
@@ -199,7 +218,6 @@ li span {
             transform: translateY(0) rotate(600deg);
   }
 }
-
 @keyframes square {
   0% {
     -webkit-transform: translateY(-700px);
@@ -210,4 +228,6 @@ li span {
             transform: translateY(0) rotate(600deg);
   }
 }
-
+@keyframes staranimate {
+  transform: translateY(0) rotate(360deg);
+}
