@@ -14,7 +14,7 @@ html, body {
 
 body {
   align-items: center;
-  background-image: url('Vero.png');
+  background-image: url("Vero.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -115,7 +115,7 @@ li span {
   display: block;
   width: 40px;
   height: 40px;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
   background-color: rgba(255, 152, 0, 0.15);
   bottom: -160px;
   -webkit-animation: square 25s infinite;
