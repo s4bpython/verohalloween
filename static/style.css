@@ -177,6 +177,7 @@ container {
 }
 
 .countdown {
+  position: relative;
   transition: all 1s ease;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
