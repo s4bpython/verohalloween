@@ -35,7 +35,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 20px;
   overflow: hidden;
   text-decoration: none;
   background-color: orange;
@@ -177,7 +177,9 @@ container {
 }
 
 .countdown {
-  position: relative;
+  position: fixed;
+  right: 0;
+  top: 100;
   transition: all 1s ease;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
