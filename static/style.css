@@ -52,6 +52,9 @@ body {
 }
 
 .container {
+  position: fixed;
+  right: 0;
+  bottom: 45px;
   transition: all 1s ease;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
