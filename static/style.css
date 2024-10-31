@@ -169,7 +169,7 @@ body {
   text-transform: uppercase;
 }
 
-.container countdown li {
+.count li {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
@@ -177,7 +177,7 @@ body {
   text-transform: uppercase;
 }
 
-.container countdown li span {
+.count li span {
   display: block;
   font-size: 4.5rem;
 }
