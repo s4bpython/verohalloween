@@ -22,7 +22,7 @@
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-          headline.innerText = "Happy Birthday!!";
+          headline.innerText = "Happy Birthday!!!";
           countdown.style.display = "none";
           content.style.display = "block";
 
