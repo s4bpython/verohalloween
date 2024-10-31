@@ -65,11 +65,11 @@ body {
 }
 
 #f1 {
-  -webkit-animation-delay: -2s;
+  -webkit-animation-delay: -10s;
 }
 
 #f2 {
-  -webkit-animation-delay: -4s;
+  -webkit-animation-delay: -20s;
 }
 
 @-webkit-keyframes fade {
