@@ -46,7 +46,7 @@ body {
   background-repeat: no-repeat;*/
   box-shadow:  5px 8px 8px orange;
   -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;;
+  -moz-transition: height 0.3s;
   transition: height 0.3s;
   z-index: 999;
 }
@@ -155,9 +155,9 @@ body {
   right: 0;
   bottom: 150px;*/
   transition: all 1s ease;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  background:rgba(0,0,0,0.5);
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.5);
   color: #ffd54f;
   margin: auto;
   text-align: center;
