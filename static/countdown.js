@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let launchday = "Oct 31, 2024 00:00:00",
+  let launchday = "Oct 1, 2024 00:00:00",
       countDown = new Date(launchday).getTime(),
       x = setInterval(function() {    
 
