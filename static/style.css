@@ -2,15 +2,13 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: #333;
-}
+  background: #333; }
 
 body {
   align-items: center;
@@ -27,8 +25,7 @@ body {
     Ubuntu, 
     Cantarell, 
     "Helvetica Neue", 
-    sans-serif;
-}
+    sans-serif; }
 
 .header {
   position: fixed;
@@ -43,8 +40,7 @@ body {
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;
-  z-index: 999;
-}
+  z-index: 999; }
 
 .fadein img {
   position:absolute;
@@ -59,31 +55,27 @@ body {
   animation-name: fade;
   animation-iteration-count: infinite;
   animation-duration: 6s;
-  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.07);
-}
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.07); }
 
 #f1 {
-  -webkit-animation-delay: -10s;
-}
+  -webkit-animation-delay: -10s; }
 
 #f2 {
-  -webkit-animation-delay: -20s;
-}
+  -webkit-animation-delay: -20s; }
 
 @-webkit-keyframes fade {
     0% {opacity: 0;}
     20% {opacity: 1;}
     33% {opacity: 1;}
     53% {opacity: 0;}
-    100% {opacity: 0;}
-}
+    100% {opacity: 0;} }
+
 @keyframes fade {
     0% {opacity: 0;}
     20% {opacity: 1;}
     33% {opacity: 1;}
     53% {opacity: 0;}
-    100% {opacity: 0;}
-}
+    100% {opacity: 0;} }
 
 .bg-bubbles {
   position: absolute;
@@ -91,8 +83,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
-}
+  z-index: 1; }
 
 .bg-bubbles li {
   position: absolute;
@@ -102,68 +93,57 @@ body {
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
-  transition-timing-function: linear;
-}
+  transition-timing-function: linear; }
 
 .bg-bubbles li:nth-child(1) {
-  left: 10%;
-}
+  left: 10%; }
 
 .bg-bubbles li:nth-child(2) {
   left: 20%;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-duration: 17s;
-          animation-duration: 17s;
-}
+          animation-duration: 17s; }
 
 .bg-bubbles li:nth-child(3) {
   left: 25%;
   -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
+          animation-delay: 4s; }
 
 .bg-bubbles li:nth-child(4) {
   left: 40%;
   -webkit-animation-duration: 22s;
-          animation-duration: 22s;
-}
+          animation-duration: 22s; }
 
 .bg-bubbles li:nth-child(5) {
-  left: 70%;
-}
+  left: 70%; }
 
 .bg-bubbles li:nth-child(6) {
   left: 80%;
   -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
+          animation-delay: 3s; }
 
 .bg-bubbles li:nth-child(7) {
   left: 32%;
   -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-}
+          animation-delay: 7s; }
 
 .bg-bubbles li:nth-child(8) {
   left: 55%;
   -webkit-animation-delay: 15s;
           animation-delay: 15s;
   -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-}
+          animation-duration: 40s; }
 
 .bg-bubbles li:nth-child(9) {
   left: 25%;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
-          animation-duration: 40s;
-}
+          animation-duration: 40s; }
 
 .fa-star {
-  color: yellow;
-}
+  color: yellow; }
 
 .container {
   position: fixed;
@@ -175,31 +155,26 @@ body {
   background: rgba(0,0,0,0.5);
   color: #ffd54f;
   margin: auto;
-  text-align: center;
-}
+  text-align: center; }
 
 .container h1 {
   font-weight: normal;
   letter-spacing: .125rem;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .count li {
   display: inline-block;
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .count li span {
   display: block;
-  font-size: 4.5rem;
-}
+  font-size: 4.5rem; }
 
 .message {
-  font-size: 4rem;
-}
+  font-size: 4rem; }
 
 #content {
   display: none;
@@ -209,29 +184,26 @@ body {
      -10px 0 106px rgba(255, 255, 255, 0.96), 
        0 0 15px #ffffff, 0 0 5px #ffffff;
   letter-spacing: -0.4px;
-  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.07);
-}
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.07); }
 
 .emoji {
   font-size: 4rem;
-  padding: 0 .25rem;
-}
+  padding: 0 .25rem; }
 
 @media all and (max-width: 768px) {
   h1 {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
   
   .count li {
     font-size: 1.125rem;
-    padding: .75rem;
-  }
+    padding: .75rem; }
   
   .count li span {
-    font-size: 5.375rem;
-  }
+    font-size: 5.375rem; }
 }
+
 /*----------------------------------- Footer ------------------------------*/
+
 .footer {
   position: absolute;
   margin:20px 0 0;
@@ -242,31 +214,27 @@ body {
   background-color: black;
   background-image:url("halloween2.png");
   background-size: contain;
-  /*background-repeat: no-repeat;*/
-  border-bottom:solid 5px #ffd54f;}
+  border-bottom:solid 5px #ffd54f; }
 
 @media screen and (max-width: 1024px) {
-  .footer {max-height:70px;}
-}
+  .footer {max-height:70px;} }
 
 /* ------------------------------- Animation -------------------------------*/
+
 @-webkit-keyframes square {
   0% {
     -webkit-transform: translateY(-700px);
-            transform: translateY(-700px);
-  }
+            transform: translateY(-700px); }
   100% {
     -webkit-transform: translateY(0) rotate(600deg);
-            transform: translateY(0) rotate(600deg);
-  }
+            transform: translateY(0) rotate(600deg); }
 }
+
 @keyframes square {
   0% {
     -webkit-transform: translateY(-700px);
-            transform: translateY(-700px);
-  }
+            transform: translateY(-700px); }
   100% {
     -webkit-transform: translateY(0) rotate(600deg);
-            transform: translateY(0) rotate(600deg);
-  }
+            transform: translateY(0) rotate(600deg); }
 }
