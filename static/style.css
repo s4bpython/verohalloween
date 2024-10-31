@@ -184,6 +184,12 @@ body {
 
 .message {
   font-size: 4rem;
+  text-shadow: 
+      10px 0 106px rgba(255, 255, 255, 0.96), 
+     -10px 0 106px rgba(255, 255, 255, 0.96), 
+       0 0 15px #ffffff, 0 0 5px #ffffff;
+  letter-spacing: -0.4px;
+  box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.07);
 }
 
 #content {
