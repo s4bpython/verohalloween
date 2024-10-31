@@ -14,10 +14,10 @@ html, body {
 
 body {
   align-items: center;
-  /*background-image: url("Vero.png");
+  background-image: url("halloween.png");
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   display: flex;
   font-family: -apple-system, 
     BlinkMacSystemFont, 
