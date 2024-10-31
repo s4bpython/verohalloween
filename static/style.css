@@ -151,9 +151,9 @@ body {
 }
 
 .container {
-  position: fixed;
+  /*position: fixed;
   right: 0;
-  bottom: 150px;
+  bottom: 150px;*/
   transition: all 1s ease;
   -moz-box-sizing:border-box;
   box-sizing:border-box;
