@@ -45,8 +45,7 @@ body {
 .fadein img {
   position: absolute;
   top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  left: 40%;
   max-width: 60vw;
   max-height: 60vh;
   -webkit-animation-name: fade;
